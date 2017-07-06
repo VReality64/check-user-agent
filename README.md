@@ -1,2 +1,7 @@
-# check-user-agent
-브라우저 User Agent 정보를 확인할 수 있는 페이지입니다
+## 당신의 User Agent 는?!
+
+<code class="ua-info">User Agent 정보를 보여줍니다</code>
+
+<script>
+  document.querySelector(".ua-info").innerHTML = window.navigator.userAgent;
+</script>
